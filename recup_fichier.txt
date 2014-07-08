@@ -5,4 +5,6 @@ Bonjour,
 	aysh
 
 	GHJHGHJ 	EE
-aaa		
+aaa
+	line 9 : d,    ab;f,5espaces
+	line 10  : d,    ab
