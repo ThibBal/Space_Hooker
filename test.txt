@@ -1,9 +1,0 @@
-Bonjour,
-
-	Ceci es/tmp un fichier de /tmpes/tmp.
-Ici la ligne numéro 4.
-
-	# ceci pourrai/tmp ê/tmpre un commen/tmpaire
-	Ici la ligne numéro 7.
-
-Au revoir
