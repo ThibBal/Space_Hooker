@@ -1,4 +1,4 @@
 Space_Hooker
 ============
 
-Git hook script that replaces tabs with 4 spaces, avoid empty lines etc.
+Git hook script that replaces tabs with 4 spaces, avoid empty lines etc before the commit.
