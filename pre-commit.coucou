@@ -1,0 +1,21 @@
+#!/bin/sh
+#This pre-commit script replaces the tabulations by four spaces in each file the user wants to commit
+#It also removes the useless spaces at the end of each line
+#Credits : @mtauch @ThibBal
+
+files=$(git diff-index --name-status --cached HEAD | grep -v ^D | cut -c3-) #List of added files
+
+if [ "$files" != "" ]
+	then
+	for file in $files
+	do
+		if [[ "$file" =~ [.](php|html|js|txt|json|xml|css|sh)$ ]] #You can add your own extension
+			then
+			sed -i -e $'s/\t/    /g;s/[\t ]*$//g' $file
+			rm "$file-e" #Removes the temp file
+			git add $file #Add the modified file to the list
+			echo "$file has been corrected by Space Hooker"
+		fi
+	done
+fi
+exit 0 #Valid the commit
