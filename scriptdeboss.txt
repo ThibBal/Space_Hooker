@@ -1,0 +1,1 @@
+sed -i -e 's/ *$//g;s/     /    /g;s/^[ \  ]*//g' test.txt
