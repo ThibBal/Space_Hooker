@@ -1,10 +1,5 @@
 Bonjour,
-	find
-	argo
-	
-	aysh
+ceci est un test
+on a 2 tab à gauche
+des espaces en trop
 
-	GHJHGHJ 	EE
-aaa
-	line 9 : d,    ab;f,5espaces
-	line 10  : d,    ab
